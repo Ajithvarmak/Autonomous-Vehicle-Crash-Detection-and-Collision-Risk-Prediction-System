@@ -1,0 +1,17 @@
+# core dependencies for accident detection and alert system
+opencv-python>=4.8.0        # computer vision
+numpy>=1.23.0               # numerical arrays
+
+# communication
+twilio>=9.0.0               # SMS/voice alerts
+
+# model and training
+ultralytics>=8.0.0          # YOLOv8 interface
+onnxruntime>=1.15.0         # run ONNX models (accident detector)
+
+# UI/audio
+pygame>=2.5.0               # alert display / sound
+
+# interactive/dev
+ipython>=8.0.0              # optional enhanced REPL
+matplotlib>=3.5.0           # plotting (used in notebooks, optional)

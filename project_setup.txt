@@ -1,0 +1,273 @@
+Project Setup Instructions
+
+This document explains how to configure the accident detection project after cloning or copying the repository. It describes what paths and credentials must be updated so the code runs correctly on your system.
+
+1. Root Folder
+
+The repository root folder is named:
+
+Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response
+
+You can keep this name or clone the repository anywhere on your computer. The project does not require folder renaming to function correctly.
+
+The system uses relative paths for most directories such as logs, outputs, and videos, so those paths will work automatically.
+
+Example project structure:
+
+Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response/
+│
+├── system_main.py
+├── accident_detection.py
+├── accident_prevention.py
+├── distance_estimator.py
+├── warning_system.py
+├── config.py
+├── sms_alert.py
+├── email_alert.py
+├── training_detection.ipynb
+├── data.yaml
+├── requirements.txt
+│
+├── audio/
+├── data/
+├── dataset/
+├── models/
+├── outputs/
+├── videos/
+
+2. Notebook Path Configuration (training_detection.ipynb)
+
+Open the notebook:
+
+training_detection.ipynb
+
+Update the working directory so it points to your local project folder.
+
+Example:
+
+%cd "D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response"
+
+data = "D:/Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response/data.yaml"
+
+LOG_DIR = Path("logs")          # remains relative
+VIDEO_PATH = "testing.mp4"      # remains relative
+
+OUTPUT_FOLDER = Path(
+"D:/Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response/outputs"
+)
+
+Only update the base project path.
+Other relative paths can remain unchanged.
+
+After updating these paths, you can run the notebook cells normally.
+
+3. Dataset Configuration (data.yaml)
+
+Open the file:
+
+data.yaml
+
+Update the dataset paths so they point to your dataset location.
+
+Example configuration:
+
+train: D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\train\images
+val:   D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\val\images
+test:  D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\test\images
+
+These directories must contain your training images.
+
+Each image must have a corresponding YOLO label file.
+
+Example:
+
+image1.jpg
+image1.txt
+
+YOLO label format:
+
+class_id x_center y_center width height
+
+Values must be normalized between 0 and 1.
+
+4. Email Credentials Configuration
+
+Open the file:
+
+email_alert.py
+
+Locate the variables used for SMTP authentication:
+
+EMAIL_USERNAME
+EMAIL_PASSWORD
+
+Replace them with your own email account credentials.
+
+Example:
+
+EMAIL_USERNAME = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_app_password"
+
+Important:
+
+• Use Gmail App Password, not your normal password
+• Do not commit real passwords to the repository
+• Use environment variables when sharing the project
+
+Example:
+
+EMAIL_USERNAME = os.getenv("EMAIL_USERNAME")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+5. Twilio SMS Configuration
+
+Create an account at:
+
+https://www.twilio.com
+
+From the Twilio console obtain:
+
+Account SID
+Auth Token
+Twilio Phone Number
+
+Then open the file where Twilio is used (usually sms_alert.py or accident_detection.py) and update:
+
+TWILIO_SID
+TWILIO_AUTH_TOKEN
+TWILIO_NUMBER
+
+Example:
+
+TWILIO_SID = "your_account_sid"
+TWILIO_AUTH_TOKEN = "your_auth_token"
+TWILIO_NUMBER = "+1234567890"
+
+You can also store these values in environment variables for better security.
+
+6. Python Dependencies
+
+Install required libraries using the provided requirements file.
+
+Run the following command inside the project directory:
+
+python -m pip install -r requirements.txt
+
+This installs packages such as:
+
+opencv-python
+ultralytics
+numpy
+requests
+twilio
+pygame
+onnxruntime
+
+These libraries are required for:
+
+• Video processing
+• Deep learning inference
+• Distance estimation
+• SMS alerts
+• Email alerts
+• Audio alerts
+
+7. Running the System
+
+You can run the system using:
+
+python system_main.py
+
+Or directly run detection mode:
+
+python accident_detection.py
+
+The system menu allows you to choose between:
+
+1. Accident Detection
+2. Accident Prediction
+
+Video sources can be:
+
+Webcam
+Video file from videos/ folder
+
+You may adjust parameters in:
+
+config.py
+
+to change thresholds, model paths, or video sources.
+
+8. No Folder Renaming Required
+
+You do not need to rename any existing folders, including:
+
+audio
+data
+dataset
+models
+outputs
+videos
+
+Only ensure that the absolute paths referenced in the notebook and data.yaml file match your system location.
+
+9. Logging and Output Files
+
+Detection outputs are automatically stored inside:
+
+outputs/
+
+Example output files:
+
+Detection video:
+
+outputs/detection_{timestamp}.mp4
+
+Black box recording:
+
+outputs/blackbox/blackbox_{timestamp}.mp4
+
+Detection log:
+
+outputs/detection_log_{timestamp}.json
+
+These logs contain metadata such as:
+
+detection time
+confidence score
+severity level
+event details
+
+If you move the project folder, update the output paths in the notebook or configuration files.
+
+10. Final Notes
+
+Before running the system:
+
+Install Python dependencies
+
+Update dataset paths
+
+Configure email credentials
+
+Configure Twilio credentials
+
+Verify model files exist in models/
+
+Run the system
+
+Recommended practices:
+
+• Use a Python virtual environment
+• Keep credentials in environment variables
+• Add a .env.example file when sharing the project
+
+System Ready
+
+After completing the steps above, the Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response should run successfully on your machine.
+
+The system will then be able to:
+
+• Detect accidents in real-time
+• Predict collision risks
+• Send automated emergency alerts
+• Save evidence logs and recordings

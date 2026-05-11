@@ -1,0 +1,6 @@
+train: D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\train\images
+val: D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\val\images
+test: D:\Autonomous Vehicle Crash Detection and Collision Risk Prediction System for Faster Emergency Response\data\test\images
+
+nc: 1
+names: ['Accident']

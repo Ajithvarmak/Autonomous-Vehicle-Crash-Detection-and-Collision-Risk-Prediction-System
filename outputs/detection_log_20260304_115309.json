@@ -1,0 +1,841 @@
+{
+  "total_detections": 150,
+  "max_confidence": 0.8310877084732056,
+  "max_consecutive_detections": 83,
+  "detection_events": [
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:40.180013",
+      "max_conf": 0.5489304661750793,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:41.700357",
+      "max_conf": 0.5518836379051208,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:41.916950",
+      "max_conf": 0.594941258430481,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:42.138399",
+      "max_conf": 0.6105185151100159,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:42.349484",
+      "max_conf": 0.7619783878326416,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:42.566265",
+      "max_conf": 0.6843878030776978,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:42.780950",
+      "max_conf": 0.6845311522483826,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:42.999547",
+      "max_conf": 0.7033383250236511,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:43.209805",
+      "max_conf": 0.7286257147789001,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:43.403470",
+      "max_conf": 0.7922175526618958,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:43.609293",
+      "max_conf": 0.6882855296134949,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:43.801016",
+      "max_conf": 0.6876592040061951,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:43.987275",
+      "max_conf": 0.7250124216079712,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:44.176809",
+      "max_conf": 0.6478531956672668,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:44.369149",
+      "max_conf": 0.5602219104766846,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:44.558158",
+      "max_conf": 0.5620161294937134,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:44.749026",
+      "max_conf": 0.562981367111206,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:44.943579",
+      "max_conf": 0.5914256572723389,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:45.141183",
+      "max_conf": 0.6383835673332214,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:45.334920",
+      "max_conf": 0.7262274026870728,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:45.525698",
+      "max_conf": 0.7497146725654602,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:45.715978",
+      "max_conf": 0.7489079236984253,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:45.970694",
+      "max_conf": 0.766103208065033,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:46.181200",
+      "max_conf": 0.7503739595413208,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:46.380977",
+      "max_conf": 0.7321780920028687,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:46.569353",
+      "max_conf": 0.7754297256469727,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:46.758147",
+      "max_conf": 0.7690643668174744,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:46.944066",
+      "max_conf": 0.8040831089019775,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:47.130668",
+      "max_conf": 0.8179978728294373,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:47.315862",
+      "max_conf": 0.8223633766174316,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:47.501011",
+      "max_conf": 0.829909086227417,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:47.691894",
+      "max_conf": 0.8310877084732056,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:47.875014",
+      "max_conf": 0.814995288848877,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.061845",
+      "max_conf": 0.7965210676193237,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.247506",
+      "max_conf": 0.7812290787696838,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.436590",
+      "max_conf": 0.7710641622543335,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.626230",
+      "max_conf": 0.7699939012527466,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.815363",
+      "max_conf": 0.6920037269592285,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:48.998200",
+      "max_conf": 0.7291505932807922,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:49.231746",
+      "max_conf": 0.7195597887039185,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:49.428289",
+      "max_conf": 0.6668018102645874,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:49.627529",
+      "max_conf": 0.6688255071640015,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:49.817238",
+      "max_conf": 0.5933817625045776,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:50.008440",
+      "max_conf": 0.5269269943237305,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:50.194450",
+      "max_conf": 0.7031909227371216,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:50.382850",
+      "max_conf": 0.5189356803894043,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:50.598889",
+      "max_conf": 0.5296536087989807,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:51.673349",
+      "max_conf": 0.5393028855323792,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:51.871561",
+      "max_conf": 0.578211784362793,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.058370",
+      "max_conf": 0.6081369519233704,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.247506",
+      "max_conf": 0.6010926365852356,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.431293",
+      "max_conf": 0.5978630185127258,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.617338",
+      "max_conf": 0.6676605939865112,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.804553",
+      "max_conf": 0.6601529121398926,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:52.991972",
+      "max_conf": 0.595546543598175,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:53.178828",
+      "max_conf": 0.5937032699584961,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:53.542217",
+      "max_conf": 0.5924981236457825,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:53.728406",
+      "max_conf": 0.6044936180114746,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:53.915877",
+      "max_conf": 0.5706583857536316,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:54.105433",
+      "max_conf": 0.5719437003135681,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:54.290883",
+      "max_conf": 0.625969648361206,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:54.476795",
+      "max_conf": 0.5116373896598816,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:54.662848",
+      "max_conf": 0.5184614062309265,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:54.850693",
+      "max_conf": 0.5268270969390869,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.036367",
+      "max_conf": 0.5234088897705078,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.226053",
+      "max_conf": 0.6093803644180298,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.412596",
+      "max_conf": 0.6438518762588501,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.601323",
+      "max_conf": 0.6516056060791016,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.790250",
+      "max_conf": 0.6457083821296692,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:55.978337",
+      "max_conf": 0.6498268842697144,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:56.161374",
+      "max_conf": 0.663508415222168,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:56.351157",
+      "max_conf": 0.6596306562423706,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:56.537041",
+      "max_conf": 0.6632621884346008,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:56.725292",
+      "max_conf": 0.6576967835426331,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:56.909645",
+      "max_conf": 0.6583154201507568,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:57.098581",
+      "max_conf": 0.6675919890403748,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:57.284028",
+      "max_conf": 0.6616755127906799,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:57.470170",
+      "max_conf": 0.6702463030815125,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:57.659332",
+      "max_conf": 0.6664638519287109,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:57.846946",
+      "max_conf": 0.6661127209663391,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.034588",
+      "max_conf": 0.6768426299095154,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.226799",
+      "max_conf": 0.6740509867668152,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.414611",
+      "max_conf": 0.6751298308372498,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.603211",
+      "max_conf": 0.6793159246444702,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.791257",
+      "max_conf": 0.6784465909004211,
+      "severity": "MINOR"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:58.981658",
+      "max_conf": 0.7481867074966431,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:59.173263",
+      "max_conf": 0.7490245699882507,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:59.361621",
+      "max_conf": 0.7499759793281555,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:59.546969",
+      "max_conf": 0.7495463490486145,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 2,
+      "timestamp": "2026-03-04T11:52:59.742570",
+      "max_conf": 0.749466598033905,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:52:59.928330",
+      "max_conf": 0.6916297674179077,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:00.120602",
+      "max_conf": 0.6927021741867065,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:00.310681",
+      "max_conf": 0.6896893382072449,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:00.516004",
+      "max_conf": 0.6925870776176453,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:00.751743",
+      "max_conf": 0.6915048360824585,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:00.981502",
+      "max_conf": 0.6879732608795166,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:01.172055",
+      "max_conf": 0.6893098950386047,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:01.361877",
+      "max_conf": 0.6896712779998779,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:01.549146",
+      "max_conf": 0.6885970830917358,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:01.735601",
+      "max_conf": 0.6888054609298706,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:01.922796",
+      "max_conf": 0.6939231157302856,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:02.114724",
+      "max_conf": 0.6955854892730713,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:02.301782",
+      "max_conf": 0.6950088143348694,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:02.487025",
+      "max_conf": 0.6950300931930542,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:02.676788",
+      "max_conf": 0.6952489614486694,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:02.862281",
+      "max_conf": 0.8157551288604736,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:03.053958",
+      "max_conf": 0.8153462409973145,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:03.244057",
+      "max_conf": 0.8155721426010132,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:03.432611",
+      "max_conf": 0.815925121307373,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:03.627057",
+      "max_conf": 0.8155825138092041,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:03.816582",
+      "max_conf": 0.7753079533576965,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:04.009576",
+      "max_conf": 0.7779898047447205,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:04.195265",
+      "max_conf": 0.7768453359603882,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:04.383747",
+      "max_conf": 0.7763315439224243,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:04.568702",
+      "max_conf": 0.7765870094299316,
+      "severity": "MODERATE"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:04.758728",
+      "max_conf": 0.6146303415298462,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:05.006010",
+      "max_conf": 0.5956903696060181,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:05.229967",
+      "max_conf": 0.596892237663269,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:05.418583",
+      "max_conf": 0.5968934893608093,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:05.620068",
+      "max_conf": 0.5969327688217163,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:05.809528",
+      "max_conf": 0.6230846047401428,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.000476",
+      "max_conf": 0.6261807084083557,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.184561",
+      "max_conf": 0.6230407953262329,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.372119",
+      "max_conf": 0.623822808265686,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.558464",
+      "max_conf": 0.6222337484359741,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.748431",
+      "max_conf": 0.6344336271286011,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:06.941788",
+      "max_conf": 0.6350467801094055,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:07.127517",
+      "max_conf": 0.6340286135673523,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:07.314321",
+      "max_conf": 0.6352825164794922,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:07.502257",
+      "max_conf": 0.6352081894874573,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:07.690152",
+      "max_conf": 0.6266797780990601,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:07.880842",
+      "max_conf": 0.6266621947288513,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:08.065603",
+      "max_conf": 0.6266234517097473,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:08.259336",
+      "max_conf": 0.6263738870620728,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:08.447298",
+      "max_conf": 0.6276441216468811,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:08.633810",
+      "max_conf": 0.6326737999916077,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:08.824353",
+      "max_conf": 0.6325504183769226,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:09.009619",
+      "max_conf": 0.6349756717681885,
+      "severity": "MINOR"
+    },
+    {
+      "count": 1,
+      "timestamp": "2026-03-04T11:53:09.195249",
+      "max_conf": 0.6375676989555359,
+      "severity": "MINOR"
+    }
+  ]
+}
